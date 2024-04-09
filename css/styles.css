@@ -191,3 +191,34 @@ a, a:hover{
 .dsmovie-flip-horizontal {
     transform: rotate(180deg);
 }
+
+footer {
+    background-color: var(--color-primary);
+    color: var(--white);
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: var(--white);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
