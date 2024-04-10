@@ -25,8 +25,8 @@ h6 {
 
 html,
 body {
- /* background-color: var(--bg-gray);*/
- background-image: radial-gradient(#ffc107, #212529);
+  /* background-color: var(--bg-gray);*/
+  background-image: radial-gradient(#ffc107, #212529);
 }
 /*main {
     padding-top: 60px;
@@ -38,7 +38,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("/dsmovie/img/movie.png");
+  background-image: url("../img/movie.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
