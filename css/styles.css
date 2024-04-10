@@ -28,6 +28,9 @@ body {
   /* background-color: var(--bg-gray);*/
   background-image: radial-gradient(#ffc107, #212529);
 }
+.body-about{
+    background-color: #ddd;
+}
 /*main {
     padding-top: 60px;
 }*/
@@ -286,7 +289,9 @@ a:hover {
 .dsmovie-flip-horizontal {
   transform: rotate(180deg);
 }
-
+.text-justify {
+    text-align: justify;
+  }
 footer {
   background-color: var(--color-primary);
   color: var(--white);
