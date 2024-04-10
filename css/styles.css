@@ -312,6 +312,29 @@ footer {
   justify-content: center;
   text-align: center;
 }
+.contactus-desc h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.contactus-desc p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.contactus-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 0.5px 60px;
+  background-color: var(--color-primary);
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.5em;
+  margin-bottom: 2em;
+}
 
 .footer-content {
   display: flex;
