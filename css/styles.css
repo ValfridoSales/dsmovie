@@ -37,7 +37,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("/img/movie.png");
+  background-image: url("/dsmovie/img/movie.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
