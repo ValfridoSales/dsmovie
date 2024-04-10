@@ -16,7 +16,7 @@
 <body>
     <header>
         <nav class="nav-container">
-            <h1>CineScore</h1>
+            <a href="index.htm"><h1>CineScore</h1></a>
             <div class="dsmovie-contact-container">
                 <img src="img/github.svg" alt="github">
                 <a href="https://github.com/ValfridoSales">/ ValfridoSales</a>
@@ -26,15 +26,15 @@
     </header>
     <div class="dsmovie-pagination-container">
         <div class="dsmovie-pagination-box">
-            <button disabled>
+            <button id="prevButton" disabled>
                 <img src="img/Arrow.svg" alt="voltar">
             </button>
-            <p>1 de 23</p>
-            <button>
+            <p id="pageNumber">1 de 23</p>
+            <button id="nextButton">
                 <img class="dsmovie-flip-horizontal" src="img/Arrow.svg" alt="proxima">
             </button>
-
         </div>
+        
     </div>
     <main>
         <section id="dsmovie-cardlist" class="container">
@@ -297,7 +297,7 @@
 
         </section>
     </main>
-
+    <script src="script/script.js"></script>
 </body>
 
 <footer>
