@@ -59,7 +59,7 @@ a, a:hover{
 .nav-links {
     list-style: none;
     display: flex;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .nav-links li {
@@ -67,6 +67,8 @@ a, a:hover{
 }
 
 .nav-links li a {
+    font-size: 14px;
+    font-weight: 700;
     text-decoration: none;
     color: inherit;
     transition: color 0.3s ease;
