@@ -315,6 +315,18 @@ footer {
   text-align: center;
 }
 
+.body-about {
+  background-color: #fffdfd; 
+  margin: 0; 
+}
+
+.about-section {
+  background-color: #faf8f8; 
+  padding: 30px; 
+  margin: 0 2cm; 
+  border-radius: 10px; 
+}
+
 .footer-content {
   display: flex;
   flex-direction: column;
