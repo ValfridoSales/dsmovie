@@ -27,9 +27,6 @@ html,
 body {
   background-image: radial-gradient(#ffc107, #212529);
 }
-/*main {
-    padding-top: 60px;
-}*/
 
 .hero {
   display: flex;
@@ -84,6 +81,7 @@ body {
 
 .hero-button:hover {
   cursor: pointer;
+  color: var(--star-yellow);
 }
 
 header {
@@ -133,7 +131,7 @@ a:hover {
 }
 
 .nav-links li a:hover {
-  color: #4d41c0; /* Change to your preferred hover color */
+  color: var(--star-yellow); /* Change to your preferred hover color */
 }
 
 .dsmovie-contact-container {
@@ -286,8 +284,8 @@ a:hover {
   transform: rotate(180deg);
 }
 .text-justify {
-    text-align: justify;
-  }
+  text-align: justify;
+}
 footer {
   background-color: var(--color-primary);
   color: var(--white);
@@ -313,14 +311,14 @@ footer {
   justify-content: center;
   text-align: center;
 }
-.contactus-desc h2{
-  font-family: 'Times New Roman', Times, serif;
+.contactus-desc h2 {
+  font-family: "Times New Roman", Times, serif;
   font-size: 60px;
   font-weight: 100;
 }
 
-.contactus-desc p{
-  font-family: 'Times New Roman', Times, serif;
+.contactus-desc p {
+  font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   font-weight: 100;
 }
@@ -338,15 +336,15 @@ footer {
 }
 
 .body-about {
-  background-color: #fffdfd; 
-  margin: 0; 
+  background-color: #fffdfd;
+  margin: 0;
 }
 
 .about-section {
-  background-color: #faf8f8; 
-  padding: 30px; 
-  margin: 0 2cm; 
-  border-radius: 10px; 
+  background-color: #faf8f8;
+  padding: 30px;
+  margin: 0 2cm;
+  border-radius: 10px;
 }
 
 .footer-content {
@@ -369,10 +367,9 @@ footer {
   text-decoration: underline;
 }
 
-.about-section{
-    background-color: #ffffffee;
-    margin: 10px;
-    border-radius: 10px;
-    padding: 50px;
-   
+.about-section {
+  background-color: #ffffffee;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 50px;
 }
