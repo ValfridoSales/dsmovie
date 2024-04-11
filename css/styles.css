@@ -131,7 +131,7 @@ a:hover {
 }
 
 .nav-links li a:hover {
-  color: var(--star-yellow); /* Change to your preferred hover color */
+  color: var(--star-yellow);
 }
 
 .dsmovie-contact-container {
@@ -238,9 +238,9 @@ a:hover {
 }
 
 .dsmovie-pagination-container {
-  position: static; /* Change to fixed position */
-  top: 70px; /* Adjust top positioning */
-  width: 100%; /* Make it full-width */
+  position: static; 
+  top: 70px; 
+  width: 100%; 
   display: flex;
   justify-content: center;
   align-items: center;
