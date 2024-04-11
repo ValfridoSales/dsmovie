@@ -16,16 +16,14 @@ document.addEventListener("DOMContentLoaded", function() {
         if (currentPage > 1) {
             currentPage--;
             updatePagination();
-            // Perform any action you want when previous button is clicked
-        }
+            }
     });
 
     nextButton.addEventListener('click', function() {
         if (currentPage < totalPages) {
             currentPage++;
             updatePagination();
-            // Perform any action you want when next button is clicked
-        }
+            }
     });
 
     updatePagination();
