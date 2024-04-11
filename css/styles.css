@@ -25,11 +25,7 @@ h6 {
 
 html,
 body {
-  /* background-color: var(--bg-gray);*/
   background-image: radial-gradient(#ffc107, #212529);
-}
-.body-about{
-    background-color: #ddd;
 }
 /*main {
     padding-top: 60px;
@@ -50,7 +46,7 @@ body {
 
 .hero h1,
 .hero p {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 10px;
   border-radius: 5px;
 }
