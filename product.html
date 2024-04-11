@@ -1,321 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto DSMovie</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <nav class="nav-container">
-            <a href="index.htm"><h1>CineScore</h1></a>
-            <ul class="nav-links">
-                <li><a href="product.html">Rate</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-            <div class="dsmovie-contact-container">
-                <img src="img/github.svg" alt="github">
-                <a href="https://github.com/ValfridoSales">/ ValfridoSales</a>
-            </div>
-
-        </nav>
+      <nav class="nav-container">
+        <a href="index.htm"><h1>CineScore</h1></a>
+        <ul class="nav-links">
+          <li><a href="product.html">Rate</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="dsmovie-contact-container">
+          <a href="https://github.com/ValfridoSales/dsmovie">
+            <img src="img/github.svg" alt="github" />
+          </a>
+        </div>
+      </nav>
     </header>
     <div class="dsmovie-pagination-container">
-        <div class="dsmovie-pagination-box">
-            <button id="prevButton" disabled>
-                <img src="img/Arrow.svg" alt="voltar">
-            </button>
-            <p id="pageNumber">1 de 23</p>
-            <button id="nextButton">
-                <img class="dsmovie-flip-horizontal" src="img/Arrow.svg" alt="proxima">
-            </button>
-        </div>
-        
+      <div class="dsmovie-pagination-box">
+        <button id="prevButton" disabled>
+          <img src="img/Arrow.svg" alt="voltar" />
+        </button>
+        <p id="pageNumber">1 de 23</p>
+        <button id="nextButton">
+          <img
+            class="dsmovie-flip-horizontal"
+            src="img/Arrow.svg"
+            alt="proxima"
+          />
+        </button>
+      </div>
     </div>
     <main>
-        <section id="dsmovie-cardlist" class="container">
-            <div class="row">
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/n6bUvigpRFqSwmPp1m2YADdbRBc.jpg"
-                            alt="the joker">
-                        <div class="dsmovie-card-description">
-                            <h3>The Joker</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-half.svg" alt="star">
-                                    <img src="img/star-empty.svg" alt="star">
-                                </div>
-                                <p>10 Ratings</p>
-                                <a class="dsmovie-btn" href="form.html"> Rate </a>
-                            </div> 
-                        </div>
-                    </div>
+      <section id="dsmovie-cardlist" class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="dsmovie-card">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/n6bUvigpRFqSwmPp1m2YADdbRBc.jpg"
+                alt="the joker"
+              />
+              <div class="dsmovie-card-description">
+                <h3>The Joker</h3>
+                <div class="dsmovie-card-description-bottom">
+                  <h4>3.8</h4>
+                  <div>
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-half.svg" alt="star" />
+                    <img src="img/star-empty.svg" alt="star" />
+                  </div>
+                  <p>10 Ratings</p>
+                  <a class="dsmovie-btn" href="form.html"> Rate </a>
                 </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg"
-                            alt="spider man">
-                        <div class="dsmovie-card-description">
-                            <h3>Spider Man: No Way Home</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-half.svg" alt="star">
-                                    <img src="img/star-empty.svg" alt="star">
-                                </div>
-                                <p>10 Ratings</p>
-                                <a class="dsmovie-btn" href="form.html"> Rate </a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/usaZV7KB6Man9Rm9TyDAeQf7uVD.jpg"
-                            alt="panic">
-                        <div class="dsmovie-card-description">
-                            <h3>Panic (2022)</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-half.svg" alt="star">
-                                    <img src="img/star-empty.svg" alt="star">
-                                </div>
-                                <p>10 Ratings</p>
-                                <a class="dsmovie-btn" href="form.html"> Rate </a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/c6H7Z4u73ir3cIoCteuhJh7UCAR.jpg"
-                            alt="eternals">
-                        <div class="dsmovie-card-description">
-                            <h3>Eternals</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-half.svg" alt="star">
-                                    <img src="img/star-empty.svg" alt="star">
-                                </div>
-                                <p>10 Ratings</p>
-                                <a class="dsmovie-btn" href="form.html"> Rate </a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/EnDlndEvw6Ptpp8HIwmRcSSNKQ.jpg"
-                            alt="Ghostbusters">
-                        <div class="dsmovie-card-description">
-                            <h3>Ghostbusters: afterlife</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-half.svg" alt="star">
-                                    <img src="img/star-empty.svg" alt="star">
-                                </div>
-                                <p>10 Ratings</p>
-                                <a class="dsmovie-btn" href="form.html"> Rate </a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/eNI7PtK6DEYgZmHWP9gQNuff8pv.jpg"
-                            alt="matrix">
-                        <div class="dsmovie-card-description">
-                            <h3>Matrix Resurrections</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-half.svg" alt="star">
-                                    <img src="img/star-empty.svg" alt="star">
-                                </div>
-                                <p>10 Ratings</p>
-                                <a class="dsmovie-btn" href="form.html"> Rate </a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/nvxrQQspxmSblCYDtvDAbVFX8Jt.jpg"
-                            alt="dont look up">
-                        <div class="dsmovie-card-description">
-                            <h3>Don't Look Up</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-half.svg" alt="star">
-                                    <img src="img/star-empty.svg" alt="star">
-                                </div>
-                                <p>10 Ratings</p>
-                                <a class="dsmovie-btn" href="form.html"> Rate </a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jdLsmpqmP1wTdFUPtmxMnYgoifT.jpg"
-                            alt="Gucci">
-                        <div class="dsmovie-card-description">
-                            <h3>House of Gucci</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-half.svg" alt="star">
-                                    <img src="img/star-empty.svg" alt="star">
-                                </div>
-                                <p>10 Ratings</p>
-                                <a class="dsmovie-btn" href="form.html"> Rate </a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/vIgyYkXkg6NC2whRbYjBD7eb3Er.jpg"
-                            alt="venom">
-                        <div class="dsmovie-card-description">
-                            <h3>Venom: Let There be Carnage</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-half.svg" alt="star">
-                                    <img src="img/star-empty.svg" alt="star">
-                                </div>
-                                <p>10 Ratings</p>
-                                <a class="dsmovie-btn" href="form.html"> Rate </a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/guB0jTCIlMB5gJUILzZrxXVMuyJ.jpg"
-                            alt="Dune">
-                        <div class="dsmovie-card-description">
-                            <h3>Dune</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-half.svg" alt="star">
-                                    <img src="img/star-empty.svg" alt="star">
-                                </div>
-                                <p>10 Ratings</p>
-                                <a class="dsmovie-btn" href="form.html"> Rate </a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jlGmlFOcfo8n5tURmhC7YVd4Iyy.jpg"
-                            alt="Suicide squad">
-                        <div class="dsmovie-card-description">
-                            <h3>Suicide Squad</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-half.svg" alt="star">
-                                    <img src="img/star-empty.svg" alt="star">
-                                </div>
-                                <p>10 Ratings</p>
-                                <a class="dsmovie-btn" href="form.html"> Rate </a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/7WJjFviFBffEJvkAms4uWwbcVUk.jpg"
-                            alt="jungle cruise">
-                        <div class="dsmovie-card-description">
-                            <h3>Jungle Cruise</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-full.svg" alt="star">
-                                    <img src="img/star-half.svg" alt="star">
-                                    <img src="img/star-empty.svg" alt="star">
-                                </div>
-                                <p>10 Ratings</p>
-                                <a class="dsmovie-btn" href="form.html"> Rate </a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-
-
+              </div>
             </div>
-
-        </section>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="dsmovie-card">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg"
+                alt="spider man"
+              />
+              <div class="dsmovie-card-description">
+                <h3>Spider Man: No Way Home</h3>
+                <div class="dsmovie-card-description-bottom">
+                  <h4>3.8</h4>
+                  <div>
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-half.svg" alt="star" />
+                    <img src="img/star-empty.svg" alt="star" />
+                  </div>
+                  <p>10 Ratings</p>
+                  <a class="dsmovie-btn" href="form.html"> Rate </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="dsmovie-card">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/usaZV7KB6Man9Rm9TyDAeQf7uVD.jpg"
+                alt="panic"
+              />
+              <div class="dsmovie-card-description">
+                <h3>Panic (2022)</h3>
+                <div class="dsmovie-card-description-bottom">
+                  <h4>3.8</h4>
+                  <div>
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-half.svg" alt="star" />
+                    <img src="img/star-empty.svg" alt="star" />
+                  </div>
+                  <p>10 Ratings</p>
+                  <a class="dsmovie-btn" href="form.html"> Rate </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="dsmovie-card">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/c6H7Z4u73ir3cIoCteuhJh7UCAR.jpg"
+                alt="eternals"
+              />
+              <div class="dsmovie-card-description">
+                <h3>Eternals</h3>
+                <div class="dsmovie-card-description-bottom">
+                  <h4>3.8</h4>
+                  <div>
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-half.svg" alt="star" />
+                    <img src="img/star-empty.svg" alt="star" />
+                  </div>
+                  <p>10 Ratings</p>
+                  <a class="dsmovie-btn" href="form.html"> Rate </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="dsmovie-card">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/EnDlndEvw6Ptpp8HIwmRcSSNKQ.jpg"
+                alt="Ghostbusters"
+              />
+              <div class="dsmovie-card-description">
+                <h3>Ghostbusters: afterlife</h3>
+                <div class="dsmovie-card-description-bottom">
+                  <h4>3.8</h4>
+                  <div>
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-half.svg" alt="star" />
+                    <img src="img/star-empty.svg" alt="star" />
+                  </div>
+                  <p>10 Ratings</p>
+                  <a class="dsmovie-btn" href="form.html"> Rate </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="dsmovie-card">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/eNI7PtK6DEYgZmHWP9gQNuff8pv.jpg"
+                alt="matrix"
+              />
+              <div class="dsmovie-card-description">
+                <h3>Matrix Resurrections</h3>
+                <div class="dsmovie-card-description-bottom">
+                  <h4>3.8</h4>
+                  <div>
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-half.svg" alt="star" />
+                    <img src="img/star-empty.svg" alt="star" />
+                  </div>
+                  <p>10 Ratings</p>
+                  <a class="dsmovie-btn" href="form.html"> Rate </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="dsmovie-card">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/nvxrQQspxmSblCYDtvDAbVFX8Jt.jpg"
+                alt="dont look up"
+              />
+              <div class="dsmovie-card-description">
+                <h3>Don't Look Up</h3>
+                <div class="dsmovie-card-description-bottom">
+                  <h4>3.8</h4>
+                  <div>
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-half.svg" alt="star" />
+                    <img src="img/star-empty.svg" alt="star" />
+                  </div>
+                  <p>10 Ratings</p>
+                  <a class="dsmovie-btn" href="form.html"> Rate </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="dsmovie-card">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jdLsmpqmP1wTdFUPtmxMnYgoifT.jpg"
+                alt="Gucci"
+              />
+              <div class="dsmovie-card-description">
+                <h3>House of Gucci</h3>
+                <div class="dsmovie-card-description-bottom">
+                  <h4>3.8</h4>
+                  <div>
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-half.svg" alt="star" />
+                    <img src="img/star-empty.svg" alt="star" />
+                  </div>
+                  <p>10 Ratings</p>
+                  <a class="dsmovie-btn" href="form.html"> Rate </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="dsmovie-card">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/vIgyYkXkg6NC2whRbYjBD7eb3Er.jpg"
+                alt="venom"
+              />
+              <div class="dsmovie-card-description">
+                <h3>Venom: Let There be Carnage</h3>
+                <div class="dsmovie-card-description-bottom">
+                  <h4>3.8</h4>
+                  <div>
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-half.svg" alt="star" />
+                    <img src="img/star-empty.svg" alt="star" />
+                  </div>
+                  <p>10 Ratings</p>
+                  <a class="dsmovie-btn" href="form.html"> Rate </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="dsmovie-card">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/guB0jTCIlMB5gJUILzZrxXVMuyJ.jpg"
+                alt="Dune"
+              />
+              <div class="dsmovie-card-description">
+                <h3>Dune</h3>
+                <div class="dsmovie-card-description-bottom">
+                  <h4>3.8</h4>
+                  <div>
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-half.svg" alt="star" />
+                    <img src="img/star-empty.svg" alt="star" />
+                  </div>
+                  <p>10 Ratings</p>
+                  <a class="dsmovie-btn" href="form.html"> Rate </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="dsmovie-card">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jlGmlFOcfo8n5tURmhC7YVd4Iyy.jpg"
+                alt="Suicide squad"
+              />
+              <div class="dsmovie-card-description">
+                <h3>Suicide Squad</h3>
+                <div class="dsmovie-card-description-bottom">
+                  <h4>3.8</h4>
+                  <div>
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-half.svg" alt="star" />
+                    <img src="img/star-empty.svg" alt="star" />
+                  </div>
+                  <p>10 Ratings</p>
+                  <a class="dsmovie-btn" href="form.html"> Rate </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="dsmovie-card">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/7WJjFviFBffEJvkAms4uWwbcVUk.jpg"
+                alt="jungle cruise"
+              />
+              <div class="dsmovie-card-description">
+                <h3>Jungle Cruise</h3>
+                <div class="dsmovie-card-description-bottom">
+                  <h4>3.8</h4>
+                  <div>
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-full.svg" alt="star" />
+                    <img src="img/star-half.svg" alt="star" />
+                    <img src="img/star-empty.svg" alt="star" />
+                  </div>
+                  <p>10 Ratings</p>
+                  <a class="dsmovie-btn" href="form.html"> Rate </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="script/script.js"></script>
-</body>
+  </body>
 
-<footer>
+  <footer>
     <div class="container">
-        <div class="footer-content">
-            <p>&copy; 2024 CineScore. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
-                <a href="contact.html">Contact Us</a>
-            </div>
+      <div class="footer-content">
+        <p>&copy; 2024 CineScore. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="contact.html">Contact Us</a>
         </div>
+      </div>
     </div>
-</footer>
-
+  </footer>
 </html>
